@@ -1,0 +1,58 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+}
+.side-bar{
+
+    background: linear-gradient(45deg,black,#0078ff);
+    float: left;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 0 10px black;
+    padding: 10px;
+    height: 100%;
+    position: fixed; /* important */
+}
+.side-bar a{
+    display: block;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 14px 25px;
+
+}
+.side-bar a:hover{
+    background: linear-gradient(45deg,#0b51c5,black);
+    border-radius: 30px;
+    box-shadow: 0 0 20px black;
+   color: #ff8a00;
+}
+.side-bar img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid #d8ffff;
+}
+    body{
+        background: #00beff;
+    }
+div p{
+    margin-left: 300px;
+    font-size: 24px;
+}
+
+div h1{
+    color: #ff0011;
+    text-align: center;
+    margin: auto;
+    width: 300px;
+    border-radius: 30px;
+    background-color: white;
+}
+.table{
+    text-align: center;
+
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Media Queries</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+            color: white;
+            font-family: "Comic Sans MS",sans-serif;
+        }
+        #container h1{
+            display: none;
+        }
+        #container img{
+            width: 100%;
+        }
+        p{
+            font-family: Arial, sans-serif;
+            color: white;
+            font-size: 2rem;
+        }
+
+        /* ------- Mobile Device ------ */
+        @media (max-width: 500px) {
+            body{
+                background-color: orangered;
+            }
+            #container h1:nth-child(1){
+                display: block;
+            }
+            #container p{
+                font-family: "Comic Sans MS",sans-serif;
+            }
+        }
+        /* ------- Tablet Device ------ */
+        @media (min-width: 501px) and (max-width: 800px) {
+            body{
+                background-color: blueviolet;
+            }
+            #container h1:nth-child(2){
+                display: block;
+            }
+            #container p{
+                font-family: Arial, sans-serif;
+            }
+
+        }
+        /* ------- Laptop Device ------ */
+        @media (min-width: 801px) and (max-width: 1200px) {
+            body{
+                background-color: limegreen;
+            }
+            #container h1:nth-child(3){
+                display: block;
+            }
+            #container p{
+                font-family: "Old English Text MT", sans-serif;
+            }
+
+        }
+        /* ------- x-large Device ------ */
+        @media (min-width: 1201px){
+            body{
+                background-color: purple;
+            }
+            #container h1:nth-child(4){
+                display: block;
+            }
+            #container p{
+                font-family: Castellar, sans-serif;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Screen Size : <span id="screen"></span></h1>
+    <div id="container">
+        <h1>Mobile Screen</h1>
+        <h1>Tablet Screen</h1>
+        <h1>Laptop Screen</h1>
+        <h1>X-Large Screen</h1>
+        
+        <img src="img/desert_4.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam aspernatur beatae deleniti esse laudantium libero mollitia, non odio quae quaerat quasi quibusdam rem repellat sapiente temporibus unde veniam veritatis vero voluptatibus? Ad aperiam beatae consequatur consequuntur dolore earum harum laudantium maiores molestias mollitia natus obcaecati, odio perferendis quam quibusdam rem voluptatum. Blanditiis eum fuga iusto magnam, nisi officiis tempore.</p>
+    </div>
+
+
+
+<script>
+    window.addEventListener('resize',function() {
+        let width = window.innerWidth;
+        document.querySelector('#screen').innerText = `${width} px`;
+    });
+</script>
+</body>
+</html>

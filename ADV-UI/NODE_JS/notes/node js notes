@@ -1,0 +1,98 @@
+node js comes with some core modules like
+os-> operating system data
+fs-> file system data
+path-> to construct the path to nested files
+http-> to create servers
+
+
+configure nodeJS suppourt in webStorm
+
+file-settngs-languages&frameeworks - node - select Checkbox- apply/ok
+
+by default no module will be available for our application 
+we have to import them manually
+
+ex : const os= require('os');
+const fs= require('fs');
+const path= require('path');
+
+nodeJS have two global variables to get the file path 
+1.) __dirname -> current working directory 
+2.) __filename -> current working directory with file path
+
+
+To construct new file path we use path module
+
+EX.) MAIN_APP/data/employees
+		
+		path.join(__dirname,'data','employees');
+
+	MAIN_APP/admin/users/profile/person.json
+		path.join(__dirname,'admin','users','profile','person.json');
+		
+		
+---------------------------------------------------------------------------------------
+		
+		Modules deeveloped by ourself are called as custom modules
+		
+		
+		main app 
+				admin
+					util.js(custom module)
+					
+			app.js
+
+					const util = require("./admin/util");
+
+						inorder to make any custom module available to our application we need  to follow below steps
+						
+						1.) write the module logic and export
+						ex) let greet = function(){....};
+								let print = function(){.....};
+								module.exports={greet,print};
+								
+								
+						2.) import / load the custom module 
+						ex.) 
+							
+
+node js npm modules or 3rd party modules
+
+-> we  can install npm in 2 ways
+1) globally
+syntax - npm install -g <module_name>
+ex  -  	npm install -g lodash --save
+
+2)localy
+	npm install lodash --save
+
+if we need any module for all applications we can install in the global.
+if any module needs for a specific application we install in the local.
+
+To install any module in local first we need a file called package.json					
+
+=======================================================================
+PACKAGE.JSON						
+			we can create this file using npm init.
+			This is the configuration file for any application and it contains applicationName
+			and dependant module info, and scripts to test application
+			developer information
+			build information
+			scripts to test the application
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+

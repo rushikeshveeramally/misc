@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product Landing Page</title>
+    <style>
+        *{
+              margin: 0;
+         }
+        body{
+            font-family: Arial, sans-serif;
+        }
+        .text-primary{
+            color: coral;
+        }
+        .main-nav{
+            background-color: black;
+            color: white;
+            box-shadow: 0 0 10px black;
+            padding: 15px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .nav-links{
+            display: flex;
+        }
+        .nav-links a{
+            color: white;
+            text-decoration: none;
+            padding: 10px 25px;
+        }
+        .nav-links a:hover{
+            background-color: coral;
+            color: black;
+            border-radius: 50px;
+        }
+        /* ------------------ Landin Page --------------- */
+        .container{
+            background: white url("img/food.jpg") no-repeat scroll center;
+            background-size: cover;
+            height: 100vh;
+            color: white;
+        }
+        .container-wrapper{
+            background-color: rgba(0,0,0,0.5);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+        .container-wrapper h1{
+            font-size: 60px;
+        }
+        .container-wrapper p{
+            font-size: 24px;
+        }
+        .btn-primary{
+            background-color: coral;
+            color: black;
+            text-decoration: none;
+            font-size: 20px;
+            padding: 14px 25px;
+            margin-top: 10px;
+            border-radius: 50px;
+            box-shadow: 0 5px 15px black;
+        }
+        .btn-primary:hover{
+            box-shadow: 0 5px 15px gray;
+        }
+        @media (max-width: 700px) {
+            .main-nav{
+                flex-direction: column;
+            }
+            .nav-links{
+                margin-top: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav class="main-nav">
+        <h1>Softwave IT <span class="text-primary">Foods</span></h1>
+        <div class="nav-links">
+            <a href="#">Noodles</a>
+            <a href="#">Healthy</a>
+            <a href="#">Fries</a>
+            <a href="#">Pizzas</a>
+        </div>
+    </nav>
+
+    <!-- Landing Page Div -->
+    <div class="container">
+        <div class="container-wrapper">
+            <h1>Softwave IT <span class="text-primary">Foods</span></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet cumque dolorem expedita explicabo fugiat harum nesciunt officia quis quisquam, reprehenderit saepe tempora tempore vero voluptatibus. Delectus dolores eius explicabo facilis fugiat illum ipsa laboriosam necessitatibus perspiciatis, sit soluta voluptatibus.</p>
+            <a href="#" class="btn-primary">Read More</a>
+        </div>
+    </div>
+
+
+</body>
+</html>

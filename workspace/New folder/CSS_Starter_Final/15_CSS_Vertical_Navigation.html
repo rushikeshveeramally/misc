@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Vertical Navigation</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        aside{
+            background: linear-gradient(45deg,black,red);
+            float: left;
+            width: 250px;
+            text-align: center;
+            box-shadow: 0 0 10px black;
+            padding: 10px;
+            height: 100%;
+            position: fixed; /* important */
+        }
+        aside a{
+            display: block;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-decoration: none;
+            font-size: 20px;
+            padding: 14px 25px;
+        }
+        aside a:hover{
+            background: linear-gradient(45deg,black,red);
+            box-shadow: 0 0 5px black;
+            border-radius: 50px;
+        }
+        aside img{
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 10px solid darkred;
+            box-shadow: 0 0 10px black;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <aside>
+        <img src="img/naveen.jpg" alt="">
+        <a href="#">HTML</a>
+        <a href="#">CSS</a>
+        <a href="#">JavaScript</a>
+        <a href="#">Bootstrap</a>
+        <a href="#">JQuery</a>
+        <a href="#">React JS</a>
+    </aside>
+
+
+
+
+</body>
+</html>

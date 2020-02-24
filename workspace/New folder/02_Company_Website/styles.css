@@ -1,0 +1,88 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+/* ------------------- Main Header ----------------- */
+.main-header{
+    background: linear-gradient(45deg,black,darkred);
+    color: white;
+    padding: 12px;
+    box-shadow: 0 0 10px black;
+}
+/* ------------------- Main Navabar ----------------- */
+.main-nav{
+    background-color: black;
+    padding: 5px;
+    box-shadow: 0 0 10px black;
+}
+.main-nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    font-size: 18px;
+    display: inline-block;
+}
+.main-nav a:hover{
+    background: linear-gradient(45deg,orangered,darkslategray);
+    border-radius: 50px;
+}
+.main-nav a.active{
+    background: linear-gradient(45deg,darkred,darkslategray);
+    border-radius: 50px;
+}
+
+/* ------------------- Sidebar ----------------- */
+.sidebar{
+    background: linear-gradient(180deg,black,darkred);
+    float: left;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 0 10px black;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    height: 800px;
+}
+.sidebar a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 25px;
+    font-size: 18px;
+}
+.sidebar a:hover{
+    background: linear-gradient(45deg,black,darkred);
+    box-shadow: 0 0 5px white;
+    border-radius: 50px;
+}
+
+/* ------------------- Main Content ----------------- */
+.main-content{
+    margin-left: 270px;
+    padding: 20px;
+    background-color: lightsalmon;
+}
+.main-content article h2{
+    font-size: 35px;
+    color: darkred;
+    padding-top: 20px;
+}
+.main-content article p{
+    font-size: 20px;
+    color: darkslategray;
+}
+
+/* ------------------- Main Footer ----------------- */
+.main-footer{
+    background: linear-gradient(45deg,black,darkred);
+    color: white;
+    padding: 12px;
+    text-align: center;
+}
+.main-footer a{
+    color: coral;
+    text-decoration: none;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS forms</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="bootstrap/css/font-awesome-5.8.1.css">
+    <style>
+        .register-div{
+            margin-top: 50px;
+            box-shadow: 0 0 10px black;
+            width: 300px;
+            border-radius: 5px;
+            background: linear-gradient(135deg,darkslategray,darkred);
+            color: white;
+            font-family: Arial, sans-serif;
+            padding: 15px;
+        }
+        .register-div h2{
+            text-align: center;
+        }
+
+        .form-group input[type='text'],
+        .form-group input[type='email'],
+        .form-group input[type='number'],
+        .form-group input[type='password'],
+        .form-group select{
+            margin: 12px 0;
+            font-size: 18px;
+            height: 35px;
+            width: 280px;
+            outline: none;
+            border: none;
+            background: transparent;
+            border-bottom: 3px solid lightsalmon;
+            color: white;
+        }
+        .form-group select{
+            color: #f5b8a3;
+        }
+        .form-group input[type='text']:focus,
+        .form-group input[type='email']:focus,
+        .form-group input[type='number']:focus,
+        .form-group input[type='password']:focus,
+        .form-group select:focus{
+            border-bottom: 3px solid #f5b8a3;
+        }
+        ::placeholder , select option:first-child{
+            color: #f5b8a3;
+        }
+        .form-group input[type='submit']{
+            display: block;
+            margin: 12px 0;
+            background: linear-gradient(45deg,darkslategray,darkred);
+            color: white;
+            border: none;
+            outline: none;
+            padding: 12px 25px;
+            width: 280px;
+            font-size: 18px;
+            box-shadow: 0 0 5px black;
+            border-radius: 5px;
+        }
+        .icon-div{
+            text-align: center;
+        }
+        .icon-div .fa-user-circle{
+            background-color: darkred;
+            font-size: 90px;
+            border-radius: 50%;
+            border: 10px solid darkred;
+            box-shadow: 0 0 10px black;
+            margin-top: -50px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Registration form -->
+    <div class="register-div">
+        <div class="icon-div">
+            <i class="fa fa-user-circle"></i>
+        </div>
+        <h2>Register Here</h2>
+        <form class="register-form">
+            <div class="form-group">
+                <input type="text" placeholder="User Name">
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <input type="password" placeholder="Password">
+            </div>
+            <div class="form-group">
+                <input type="number" placeholder="Mobile Number">
+            </div>
+            <div class="form-group">
+                <select>
+                    <option>Select Designation</option>
+                    <option>Software Engineer</option>
+                    <option>Sr.software Engineer</option>
+                    <option>Tech Lead</option>
+                    <option>Sr.TechLead</option>
+                    <option>Asst. Project Manager</option>
+                    <option>Project Manager</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Register">
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

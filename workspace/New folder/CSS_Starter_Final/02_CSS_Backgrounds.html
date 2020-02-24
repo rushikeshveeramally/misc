@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Backgrounds</title>
+    <style>
+        body{
+            font-family: "Comic Sans MS",sans-serif;
+            margin-bottom: 500px;
+        }
+        #bg-color{
+            background-color: teal;
+        }
+        #bg-image{
+            box-shadow: 0 0 10px black;
+            padding: 10px;
+            width: 500px;
+            background-image: url("img/image3.jpeg");
+        }
+        #bg-repeat{
+            box-shadow: 0 0 10px black;
+            height: 300px;
+            width: 500px;
+            background-color: lightsalmon;
+            background-image: url("img/nature.jpg");
+            background-repeat: repeat-x;
+            background-position: top left;
+            background-attachment: scroll;
+        }
+        #bg-position{
+            box-shadow: 0 0 10px black;
+            height: 300px;
+            width: 500px;
+            background: lightsalmon url("img/nature.jpg") no-repeat scroll top right;
+        }
+        #bg-attachment{
+            box-shadow: 0 0 10px black;
+            height: 200px;
+            background: white url("img/image5.jpeg") no-repeat fixed center;
+        }
+        #bg-size{
+            box-shadow: 0 0 10px black;
+            height: 300px;
+            width: 500px;
+            background-image: url("img/image3.jpeg");
+            background-size: cover;
+        }
+
+        #bg-gradient{
+            box-shadow: 0 0 10px black;
+            height: 300px;
+            width: 500px;
+            background:linear-gradient(90deg,black,white,black);
+        }
+    </style>
+</head>
+<body>
+
+    <!--
+        Background Color
+        Image
+        Attachment
+        Repeat
+        Position
+        Linear-Gradient
+    -->
+
+    <h2>Background Color</h2>
+    <div id="bg-color">
+        <h1>Iam with Teal color background</h1>
+    </div>
+
+    <h2>Background Attachment</h2>
+    <div id="bg-attachment">
+
+    </div>
+
+    <h2>Background Image</h2>
+    <div id="bg-image">
+        <h2>Welcome to CSS</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium est ex officiis quod repudiandae tempora. Aliquam dicta enim error ex explicabo officia praesentium quidem sapiente sed soluta. A ad assumenda at culpa cumque dignissimos eaque eos ex fugiat harum ipsam itaque magni, minus molestias placeat quidem quos sit, ullam ut!</p>
+    </div>
+
+    <h2>Background Repeat</h2>
+    <div id="bg-repeat">
+
+    </div>
+
+    <h2>Background Position</h2>
+    <div id="bg-position">
+
+    </div>
+
+    <h2>Background Size</h2>
+    <div id="bg-size">
+
+    </div>
+
+    <h2>Gradient</h2>
+    <div id="bg-gradient">
+
+    </div>
+
+
+
+</body>
+</html>

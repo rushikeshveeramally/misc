@@ -1,0 +1,77 @@
+
+/*   main header*/
+.main-header1{
+    font-family: "Harlow Solid Italic",sans-serif;
+    background: linear-gradient(150deg,#ff0011,#00beff);
+    color: white;
+    font-weight: bold;
+    font-family: "Berlin Sans FB", sans-serif;
+    padding: 20px;
+    letter-spacing: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px black;
+    font-size: 20px;
+}
+.main-nav-1{
+    background-color: black;
+    padding: 5px;
+    box-shadow: 0 0 10px black;
+}
+.main-nav-1 a{
+    color: green;
+    text-decoration: none;
+    padding: 10px 25px;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.side{
+    float: left;
+    background: linear-gradient(45deg,#ff0011,#00beff);
+    position: sticky;
+    width: 180px;
+    font-size: 25px;
+    height: 600px;
+    text-align: center;
+    padding: 15px;
+    top: 0;
+
+}
+.side a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 20px 20px;
+    font-size: 20px;
+}
+.side a:hover{
+    background: linear-gradient(90deg,#00beff,#ff0011);
+    border-radius: 50px;
+    box-shadow: 0 0 10px black;
+}
+.main1{
+    margin-left: 210px;
+    background:linear-gradient(270deg,#2afffa,#9fff03);
+    padding:10px;
+}
+
+.main1 article h2{
+    font-size: 25px;
+    color: #ff0011;
+    padding: 0 10px;
+}
+
+.main1 article p{
+    font-size: 22px;
+    color: darkblue;
+}
+
+.foot{
+    background: linear-gradient(45deg,#00beff,#ff01ac);
+    color: white;
+    padding: 12px;
+    text-align: center;
+}
+html{
+    scroll-behavior: smooth;
+}

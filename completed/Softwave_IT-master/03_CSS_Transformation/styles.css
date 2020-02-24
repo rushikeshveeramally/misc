@@ -1,0 +1,107 @@
+body{
+    margin-bottom: 300px;
+}
+section{
+    font-family: Arial,sans-serif;
+    background-color: lightgray;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+}
+section article{
+    background: blueviolet;
+    color: whitesmoke;
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    transition: all 0.5s;
+}
+/* --------------- Transformation 1 -------------------- */
+.trans-1:hover{
+    transform: translateY(-20px);
+}
+
+/* --------------- Transformation 2 -------------------- */
+.trans-2:hover{
+    transform: skewY(-20deg);
+}
+
+/* --------------- Transformation 3 -------------------- */
+.trans-3:hover{
+    transform: scale(1.2,1.2);
+}
+
+/* --------------- Transformation 4 -------------------- */
+.trans-4:hover{
+    transform: rotate(-20deg) scale(1.2,1.2);
+}
+
+/* --------------- Transformation 5 -------------------- */
+.trans-5:hover{
+    transform: perspective(400px) rotateY(20deg);
+}
+
+/* --------------- Transformation 6 -------------------- */
+.trans-6:hover{
+    transform: rotate3d(2, -1, -1, -0.2turn);
+}
+
+/* --------------- Image Zoom -------------------- */
+
+.zoom{
+    box-shadow: 0 0 10px black;
+    width: 600px;
+    height: 350px;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.zoom img{
+    width: inherit;
+    height: inherit;
+    border-radius: 10px;
+    transition:  all 0.5s;
+}
+.zoom:hover img{
+    transform: scale(1.2,1.2);
+}
+.content-left{
+    background-image: url("../img/door.PNG");
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    text-align: center;
+    height: 100%;
+    font-family: Arial,sans-serif;
+    color: whitesmoke;
+    transform: perspective(400px) rotateY(90deg);
+    transform-origin: left;
+    transition: all 0.5s;
+}
+.zoom:hover .content-left{
+    transform: perspective(400px) rotateY(0deg);
+}
+
+.content-right{
+    background-image: url("../img/door.PNG");
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    text-align: center;
+    height: 100%;
+    font-family: Arial,sans-serif;
+    color: whitesmoke;
+    transform: perspective(400px) rotateY(-90deg);
+    transform-origin: right;
+    transition: all 0.5s;
+}
+.zoom:hover .content-right{
+    transform: perspective(400px) rotateY(0deg);
+}

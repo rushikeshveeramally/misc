@@ -1,0 +1,65 @@
+RESPONSIVENSS
+		1. the responsiveness is a concept of displaying any website styles perfectly 
+		
+		fit for all the devices like mobile, tablet, laptop and extra large screen.
+			
+			we can achieve responsivenss with meedia queries
+			
+			1.in the media queries we will define the styles based on the screeen sizes for every devices
+				ex : mobile devices
+					@media(max-width : 500px){
+					body{
+					background color: voilet
+					}
+					}
+					
+					tablet
+					@media(min-width : 501px) and(max-width : 800px){
+					body{
+					background color: voilet
+					}
+					}
+					
+					laptop
+					
+					@media(min-width : 801px) and(max-width : 1200px){
+					body{
+					background color: greeen;
+					}
+					}
+					
+					extra large
+					@media(min-width : 1201px) {
+					body{
+					background color: blue;
+					}
+					}
+					
+					
+NOTE : TO ACHIEEVE THE BEST RESPONSIVENSS WE HAVE TO GIVE THE DYNAMIC VALUES LIKE % , rem etc.;
+		INSTEAD OF STATIC VALUES  'px' 
+
+
+
+
+
+
+
+CSS FLEX BOX
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+					

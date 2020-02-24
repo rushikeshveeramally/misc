@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Borders</title>
+    <style>
+        body{
+            font-family: Arial,sans-serif;
+            margin-bottom: 500px;
+        }
+        div{
+            background-color: lightgreen;
+            padding: 15px;
+
+            text-align: center;
+        }
+        #border-all{
+            width: 500px;
+            border: 15px solid green;
+        }
+
+        #border-one{
+            width: 500px;
+            border-left: 15px solid green;
+        }
+
+        #border-rounded{
+            width: 500px;
+            border: 15px solid green;
+            border-radius: 40px;
+        }
+
+        #border-rounded-two{
+            width: 500px;
+            border: 15px solid green;
+            border-radius: 50px 0 50px 0;
+        }
+
+        #circle{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            box-shadow: 0 0 10px black;
+            border: 25px solid limegreen;
+        }
+
+        #circle-custom{
+            background: linear-gradient(45deg,white,limegreen);
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            box-shadow: 0 0 10px black;
+            border-top: 20px solid orangered;
+            border-bottom: 20px solid blueviolet;
+            border-left: 40px solid green;
+            border-right: 40px solid yellow;
+        }
+    </style>
+</head>
+<body>
+
+    <!--
+      border widths ,styles , colors , sides , rounded , custom
+     -->
+
+    <h2>CSS Border All Sides</h2>
+    <div id="border-all">
+        <h1>Welcome to Borders</h1>
+    </div>
+
+    <h2>CSS Border Single Side</h2>
+    <div id="border-one">
+        <h1>Welcome to Borders</h1>
+    </div>
+
+    <h2>Border with Rounded All Sides</h2>
+    <div id="border-rounded">
+        <h1>Border with rounded</h1>
+    </div>
+
+    <h2>Border with Rounded Two Sides</h2>
+    <div id="border-rounded-two">
+        <h1>Border with rounded Two</h1>
+    </div>
+
+    <h2>Circle with borders</h2>
+    <div id="circle">
+
+    </div>
+
+    <h2>Custom Circle</h2>
+    <div id="circle-custom">
+
+    </div>
+
+</body>
+</html>

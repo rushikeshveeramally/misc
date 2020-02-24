@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS DOM Events ONE</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+<nav>
+    <a href="#">JS DOM Events ONE</a>
+</nav>
+
+<!-- Keyup event -->
+<div>
+    <form>
+        <input id="input-box" type="text">
+    </form>
+    <h2 id="input-text"></h2>
+</div>
+
+<!-- change event -->
+<div>
+    <form>
+        <select id="select-box">
+            <option value="">Select a Technology</option>
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="JQuery">JQuery</option>
+            <option value="AJAX">AJAX</option>
+            <option value="Angular">Angular</option>
+            <option value="React JS">React JS</option>
+        </select>
+    </form>
+    <h2 id="selected-option"></h2>
+</div>
+
+<!-- Show password -->
+<div>
+    <form>
+        <input id="password-box" type="password">
+        <input id="check-box" type="checkbox">SHOW
+    </form>
+</div>
+
+<!-- SMS App -->
+<div>
+    <form>
+        <textarea id="text-area" rows="5" cols="30" maxlength="100"></textarea>
+    </form>
+    <h3>The characters Remaining : <span id="span-count">0</span>/100 </h3>
+</div>
+
+<!-- Copy Address -->
+<div>
+    <form>
+        <textarea id="current-address" rows="5" cols="30" placeholder="Current Address"></textarea>
+        <br>
+        <input type="checkbox" id="check"> Copy Address
+        <br>
+        <textarea id="permanent-address" rows="5" cols="30" placeholder="Permanent Address"></textarea>
+    </form>
+</div>
+
+<!-- Range Selection -->
+<div>
+    <form>
+        <input id="range" type="range" min="5000" max="500000" style="width: 300px">
+    </form>
+    <h2 id="display"></h2>
+</div>
+
+
+<div>
+    <form id="even-odd">
+        <input type="text">
+    </form>
+    <h3 id="print-even-odd">a</h3>
+</div>
+
+
+<script src="11_script.js"></script>
+</body>
+</html>

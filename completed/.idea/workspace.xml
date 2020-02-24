@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="43bde5ff-0586-4be5-a335-5ba8caa51335" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1USUDrRvtGrzesfW1y5b83XUwQ2" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Bootstrap_Completed_Files/01_Dashboard_Website/src" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\workspace\foodwebsite\imga" />
+      <recent name="G:\workspace\foodwebsite" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\workspace\Bootstrap_Completed_Files" />
+      <recent name="G:\workspace\01_Dashboard_Website_fresh" />
+      <recent name="G:\workspace\personal website\img" />
+      <recent name="G:\workspace\bootstrap practice\js" />
+      <recent name="G:\workspace\bootstrap practice\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="43bde5ff-0586-4be5-a335-5ba8caa51335" name="Default Changelist" comment="" />
+      <created>1575349374597</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575349374597</updated>
+      <workItem from="1575349381740" duration="238000" />
+      <workItem from="1575349623248" duration="368000" />
+      <workItem from="1575350049709" duration="39000" />
+      <workItem from="1575350134420" duration="93000" />
+      <workItem from="1575350247293" duration="25000" />
+      <workItem from="1575350291176" duration="21000" />
+      <workItem from="1575350519930" duration="21000" />
+      <workItem from="1575358710838" duration="369000" />
+      <workItem from="1575400236530" duration="2244000" />
+      <workItem from="1575415189728" duration="7968000" />
+      <workItem from="1575439343830" duration="890000" />
+      <workItem from="1575530509623" duration="4136000" />
+      <workItem from="1575567819045" duration="1511000" />
+      <workItem from="1575572641134" duration="4000" />
+      <workItem from="1575573338922" duration="4172000" />
+      <workItem from="1575618216971" duration="2308000" />
+      <workItem from="1575836301779" duration="1429000" />
+      <workItem from="1575917986560" duration="1321000" />
+      <workItem from="1575931093245" duration="2205000" />
+      <workItem from="1575935323576" duration="695000" />
+      <workItem from="1575964233923" duration="4449000" />
+      <workItem from="1576047248635" duration="6000" />
+      <workItem from="1576091403468" duration="2179000" />
+      <workItem from="1576100468314" duration="2722000" />
+      <workItem from="1576178054611" duration="1351000" />
+      <workItem from="1576188101194" duration="1107000" />
+      <workItem from="1576263826920" duration="1575000" />
+      <workItem from="1576310269210" duration="1111000" />
+      <workItem from="1576486342394" duration="328000" />
+      <workItem from="1576523712931" duration="851000" />
+      <workItem from="1576548352083" duration="6842000" />
+      <workItem from="1576613870487" duration="1331000" />
+      <workItem from="1576633148006" duration="7013000" />
+      <workItem from="1576647973918" duration="423000" />
+      <workItem from="1576733150396" duration="6634000" />
+      <workItem from="1576767403019" duration="881000" />
+      <workItem from="1576859253968" duration="1292000" />
+      <workItem from="1576904880511" duration="2644000" />
+      <workItem from="1576908730142" duration="411000" />
+      <workItem from="1577001864353" duration="772000" />
+      <workItem from="1577003814137" duration="1486000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
